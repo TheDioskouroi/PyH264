@@ -5,10 +5,10 @@ A pure Python implementation of H.264 for learning purposes.
 Designed for clarity over performance.
 """
 
-from h264.H264 import H264
-from h264.Frame import Frame
-from h264.Slice import Slice
-from h264.MacroBlock import MacroBlock
-from h264.TransformBlock import TransformBlock
+from .H264 import H264
+from Frame import Frame
+from Slice import Slice
+from MacroBlock import MacroBlock
+from TransformBlock import TransformBlock
 
 __all__ = ['H264', 'Frame', 'Slice', 'MacroBlock', 'TransformBlock']

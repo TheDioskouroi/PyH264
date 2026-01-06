@@ -12,8 +12,8 @@ from flask import Flask, render_template, request, jsonify
 from PIL import Image
 import numpy as np
 
-from h264.H264 import H264
-from h264.DCT import dct2
+from .H264 import H264
+from DCT import dct2
 
 app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max upload

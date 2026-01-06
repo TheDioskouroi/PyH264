@@ -14,7 +14,7 @@ import sys
 import os
 import logging
 
-from h264.H264 import H264
+from .H264 import H264
 
 
 def setup_logging(verbose: bool):
